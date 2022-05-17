@@ -4,6 +4,12 @@ Analysis for the paired stimulation for the induction of spike-timing dependent 
 1. Deliver paired stimulation with much smaller temporal resolution. The single unit response to stimulation has dynamics that change at sub-millisecond scales, but most STDP experiments use static inter-stimulus intervals. We tested 0.1 ms to 20 ms in 0.5 ms steps. 
 2. Use the single unit responses as a measure of connectivity. Most previous literature use macroscopic measures such as stimulus induced movement or most commonly cortico-cortical evoked potentials (CCEPs). However, movements induced by stimulation require the activation of the entire corticospinal tract, and we still don't have a complete understanding of the complex, multiphasic CCEPs. 
 
+We clearly see that the evoked spike probability is heavily dependent on the ISI. Facilitation only occurs if the second stimulus occurs before the evoked spike (1 in normalized ISI) and we see depression even with positive ISIs, likely due to the inhibitory circuitry being activated. 
+
+<p align="center">
+  <img width="1000" height="800" src="https://github.com/richyyun/PairedStim/blob/main/ES%20Changes.png">
+</p>
+
 ## Analyses Performed
 - Create a session list (SL) of all experiments that contains sorted spikes, evoked spikes, inhibitory response, and CCEPs. 
 - Assess changes in responses (excitatory, inhibitory, CCEPs) with respect to the ISI.
