@@ -7,7 +7,7 @@ Analysis for the paired stimulation for the induction of spike-timing dependent 
 We clearly see that the evoked spike probability is heavily dependent on the ISI. Facilitation only occurs if the second stimulus occurs before the evoked spike (1 in normalized ISI) and we see depression even with positive ISIs, likely due to the inhibitory circuitry being activated. 
 
 <p align="center">
-  <img width="800" height="640" src="https://github.com/richyyun/PairedStim/blob/main/ES%20Changes.png">
+  <img width="600" height="480" src="https://github.com/richyyun/PairedStim/blob/main/ES%20Changes.png">
 </p>
 
 ## Analyses Performed
